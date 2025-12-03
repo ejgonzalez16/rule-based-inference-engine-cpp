@@ -1,0 +1,6 @@
+Pompeyano(marco)
+*X*Pompeyano(X)>Romano(X)
+Gobernante(cesar)
+*X*Romano(X)>[Leal(X,cesar)|Odia(X,cesar)]
+*X**Y*[Hombre(X)&Gobernante(Y)&IntentaAsesinar(X,Y)]>-Leal(X,Y)
+IntentaAsesinar(marco,cesar)

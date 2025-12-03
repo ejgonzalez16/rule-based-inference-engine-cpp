@@ -1,0 +1,5 @@
+*X*[*Y*animal(Y)>ama(X,Y)]>@Z@ama(Z,X)
+*X*[*Y*animal(Y)&mata(X,Y)]>*Z*-ama(Z,X)
+*X*animal(X)>ama(jack,X)
+[mata(jack,tuna)|mata(curiosidad,tuna)]&gato(tuna)
+*X*gato(X)>animal(X)
